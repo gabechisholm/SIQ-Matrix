@@ -1,17 +1,17 @@
-# Better Matrix
+![SIQ Matrix Banner](assets/SIQ_Matrix_Banner.png)
 
-> A custom Power BI Matrix visual with dynamic column sorting, hierarchical headers, rich formatting options, and in-cell data bars.
+# SIQ Matrix
+
+> A custom Power BI Matrix visual with dynamic column sorting, individual column value sorting, hierarchical headers, rich formatting options, and in-cell data bars.
 
 ---
 
 ## 📦 Installation
 
-1. Download the latest `BetterMatrix.pbiviz` file from the [Releases](https://github.com/gabechisholm/BetterMatrix/releases) page.
+1. Download the latest `SIQ_Matrix.pbiviz` file from the [Releases](https://github.com/gabechisholm/BetterMatrix/releases) page.
 2. Open **Power BI Desktop** or **Power BI Service**.
-3. In the **Visualizations** pane, click **···** (More options).
-4. Select **Import a visual from a file**.
-5. Choose the downloaded `.pbiviz` file.
-6. The **Better Matrix** icon will now appear in your Visualizations pane — ready to use.
+3. In the **Visualizations** pane, click **···** (More options) -> **Import a visual from a file**.
+4. Choose the downloaded `.pbiviz` file.
 
 ---
 
@@ -27,75 +27,43 @@ Drag fields into the three data roles in the Visualizations pane:
 
 ---
 
+## ⚡ Key Sorting Features (How to Sort)
+
+SIQ Matrix supports two independent, powerful sorting modes:
+
+1. **Sort Rows by Individual Column Values** (Click Column Headers):
+   * Click on any individual leaf column header (e.g., a specific date or category) to sort all rows based on the values in that column.
+   * Click once to sort **Ascending (▲)**, click again for **Descending (▼)**, and click a third time to clear the sort.
+   * Click the row header column to sort alphabetically by row labels.
+2. **Flip Column Order / Group Sorting** (Header Menu):
+   * Click the **…** (Options) button in the visual header bar to flip the chronological/grouping order of the columns themselves (e.g. swap from oldest-first to newest-first).
+
+---
+
 ## ✨ Features
 
-| Feature | Details |
-|---|---|
-| **Hierarchical headers** | Expand and collapse row/column groups with a click |
-| **Dynamic column sorting** | Click any column header to sort ascending / descending |
-| **Subtotals & grand totals** | Configurable per axis — position, label, color, and font |
-| **In-cell data bars** | Visualise magnitude directly inside cells with positive/negative colouring |
-| **5 layout presets** | Instantly apply Default, Minimal, Bold Header, Alternating Rows, or Contrast styles |
-| **Per-section formatting** | Independently format values, column headers, row headers, subtotals, and totals |
-| **Per-column overrides** | Override colour, background, and alignment on any specific column |
-| **Display units** | Show numbers as raw, Thousands, Millions, or Billions |
-| **Alternating row colours** | Optional stripe colouring with a custom colour picker |
-| **Blank row control** | Choose whether to show or hide blank/empty data rows |
+* **Hierarchical Headers**: Expand and collapse row/column groups with inline indicators.
+* **In-Cell Data Bars**: Visualise magnitude directly inside cells with positive/negative colouring and zero-axis lines.
+* **5 Style Presets**: Instantly apply `Default`, `Minimal`, `Bold Header`, `Alternating Rows`, or `Contrast` layouts.
+* **Specific Column Overrides**: Override font color, background color, and text alignment on any column by its index.
+* **Built-in Search Controllers**: Independent toggles for row keyword search and value-based query filtering (e.g. `>100`, `<=500`).
+* **Blank Row Control**: Toggle whether to show or hide blank/empty data rows.
+* **Alternate Row Colors**: Stripe colouring with custom background color picker.
+* **Multi-Format Exports**: Export pivoted layout or unpivoted raw summaries to CSV or Excel directly from the UI.
 
 ---
 
 ## 🎨 Formatting Options
 
-Open the **Format visual** pane to access the following sections:
+Access the following settings inside the **Format visual** pane:
 
-### Layout and style presets
-Quickly set the overall look with one of five presets:
-`Default` · `Minimal` · `Bold Header` · `Alternating Rows` · `Contrast`
-
-### Grid
-- Toggle horizontal and vertical gridlines on/off
-- Gridline color and weight
-- Row padding
-- Alternating row background color
-
-### Values
-- Font family, size, bold, italic, color, background
-- Word wrap and text alignment (Left / Center / Right)
-- Display units and decimal places
-
-### Column headers
-- Font family, size, bold, italic, color, background
-- Word wrap and text alignment
-- Auto size column width
-
-### Row headers
-- Font family, size, bold, italic, color, background
-- Word wrap
-- Stepped layout indent depth
-- Expand/collapse icon color
-
-### Column subtotals / Row subtotals
-- Toggle on/off
-- Position: Top or Bottom
-- Font, color, background
-- Custom label text (default: "Total")
-
-### Column grand total / Row grand total
-- Toggle on/off
-- Font, color, background
-- Custom label text (default: "Total")
-
-### Cell elements
-- Data bars toggle
-- Positive bar color / negative bar color
-- Zero-axis line toggle and color
-
-### Specific column
-- Target any column by its index (0 = first column)
-- Override font color, background color, and text alignment
-
-### Blank rows
-- Show or hide rows that contain no data
+* **Layout and style presets**: Set the overall look (`Default`, `Minimal`, `Bold Header`, `Alternating Rows`, `Contrast`).
+* **Grid**: Toggle horizontal/vertical gridlines, configure line weight/color, separator styling, and adjust row padding.
+* **Values**: Adjust font family, size, colors, alignments, and set numeric display units and decimal places.
+* **Column & Row Headers**: Adjust typography, custom header labels, stepped layout indent depth, and expand/collapse icon colors.
+* **Column & Row Grand Totals**: Toggle subtotals/totals, change position (left/right/top/bottom), customize labels, and format fonts and colors.
+* **Cell elements**: Configure positive/negative data bar colors and zero-axis lines.
+* **Row Search**: Style the search inputs, background, border colors, text size, and adjust layout offsets.
 
 ---
 
