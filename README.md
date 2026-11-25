@@ -6,7 +6,7 @@
 
 **A custom Power BI matrix that puts column sorting within easy reach.**
 
-![Version 1.0.4.3](https://img.shields.io/badge/version-1.0.4.3-2563EB)
+![Version 1.0.4.5](https://img.shields.io/badge/version-1.0.4.5-2563EB)
 ![Power BI custom visual](https://img.shields.io/badge/Power%20BI-custom%20visual-F2C811?logo=powerbi&logoColor=black)
 ![MIT licence](https://img.shields.io/badge/licence-MIT-64748B)
 
@@ -26,7 +26,7 @@ Put months, products, or any other column category in the order your report need
 | Share the grid or analyse it elsewhere | **CSV or Excel export** of the current pivoted layout or an unpivoted summary |
 
 > [!NOTE]
-> **New in 1.0.4.3** — Cell gradients support row, column, and whole-matrix scales. Colour measures can format cells without bringing back blank rows or columns.
+> **New in 1.0.4.5** — Native right-click context menu is now supported.
 
 ---
 
